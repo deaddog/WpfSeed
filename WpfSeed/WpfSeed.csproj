@@ -34,8 +34,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.6.2.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.6.2\lib\net45\Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -85,6 +92,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -92,6 +100,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WpfSeed.Models\WpfSeed.Models.csproj">
+      <Project>{8eaba0ed-7abd-469e-8571-8f16336bd752}</Project>
+      <Name>WpfSeed.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WpfSeed.ViewModels\WpfSeed.ViewModels.csproj">
+      <Project>{b69a5b95-c943-4849-a043-da7f8db8ee46}</Project>
+      <Name>WpfSeed.ViewModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WpfSeed.Views\WpfSeed.Views.csproj">
+      <Project>{5f218345-60b1-4475-b0f1-08975ebea866}</Project>
+      <Name>WpfSeed.Views</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
