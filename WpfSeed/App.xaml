@@ -3,6 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WpfSeed">
     <Application.Resources>
-         
+        <local:ViewModelLocator x:Key="ViewModelLocator"/>
     </Application.Resources>
 </Application>
