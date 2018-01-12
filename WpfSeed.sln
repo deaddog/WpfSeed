@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSeed", "WpfSeed\WpfSeed.csproj", "{CF2EB6A1-9F64-46F7-AA46-884777AABC68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSeed", "WpfSeed\WpfSeed\WpfSeed.csproj", "{CF2EB6A1-9F64-46F7-AA46-884777AABC68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSeed.ViewModels", "WpfSeed.ViewModels\WpfSeed.ViewModels.csproj", "{B69A5B95-C943-4849-A043-DA7F8DB8EE46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSeed.ViewModels", "WpfSeed\WpfSeed.ViewModels\WpfSeed.ViewModels.csproj", "{B69A5B95-C943-4849-A043-DA7F8DB8EE46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSeed.Views", "WpfSeed.Views\WpfSeed.Views.csproj", "{5F218345-60B1-4475-B0F1-08975EBEA866}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSeed.Views", "WpfSeed\WpfSeed.Views\WpfSeed.Views.csproj", "{5F218345-60B1-4475-B0F1-08975EBEA866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSeed.Models", "WpfSeed.Models\WpfSeed.Models.csproj", "{8EABA0ED-7ABD-469E-8571-8F16336BD752}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSeed.Models", "WpfSeed\WpfSeed.Models\WpfSeed.Models.csproj", "{8EABA0ED-7ABD-469E-8571-8F16336BD752}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
