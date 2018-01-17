@@ -4,7 +4,7 @@ The is a (very) basic wpf setup, that defines a couple of projects and uses Auto
 The seed has intentionally be left as bare as can be.
 
 #### Get this going
-You can download a [Visual Studio template](WpfSeedTemplate.zip) and store it in your Visual Studio Project Templates folder.
+You can download a [Visual Studio template](https://github.com/deaddog/WpfSeed/releases/tag/v1) and store it in your Visual Studio Project Templates folder.
 Typically this will be in *C:\\Users\\**username**\\Documents\\Visual Studio 2017\\Templates\ProjectTemplates\\*.
 
 > The template folder structure dictates where the template shows up in the Visual Studio template hierarchy.
