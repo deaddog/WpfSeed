@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using System.Windows;
+using WpfSeed.Views;
 
 namespace WpfSeed
 {
