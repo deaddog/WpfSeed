@@ -1,8 +1,11 @@
 ﻿<Application x:Class="WpfSeed.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:WpfSeed.ViewModels;assembly=WpfSeed.ViewModels"
+             xmlns:m="clr-namespace:WpfSeed.Views;assembly=WpfSeed.Views"
              xmlns:local="clr-namespace:WpfSeed">
     <Application.Resources>
         <local:ViewModelLocator x:Key="ViewModelLocator"/>
+        <local:ViewModelTemplateSelector x:Key="ViewModelTemplateSelector" RootViewModelType="{x:Type vm:MainViewModel}" RootViewType="{x:Type m:MainWindow}"/>
     </Application.Resources>
 </Application>
